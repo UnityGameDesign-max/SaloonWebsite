@@ -167,6 +167,10 @@ Which is the description of Salon business
   top: -90px;
 }
 
+.showcase-images {
+  padding-bottom: 1.63em;
+}
+
 .showcase-images .image1 {
   width: 340px;
   height: 340px;
