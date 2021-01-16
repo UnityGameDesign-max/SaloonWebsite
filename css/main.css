@@ -1,0 +1,230 @@
+/*
+This is the body tag that for all sections of the websites
+*/
+body {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+}
+
+/*
+This is the first section of the website
+Which is the Home page of Salon Website
+*/
+.first-section {
+  background: url("../images/green+bg.png") no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: #A2DFD3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1.2em 1.2em;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section h2 {
+  color: #A2DFD3;
+  font-size: 19px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 4.6em 0.1em 0 0.9em;
+}
+
+p {
+  color: #A2DFD3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0.2em 1.5em;
+}
+
+.readmore-link {
+  margin: 4.5em 0.3em 0 2em;
+  background: rgba(231, 229, 229, 0.295);
+  padding: 0.5em;
+  width: 100px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.readmore-link img {
+  width: 6.6px;
+  margin-bottom: 0.1em;
+}
+
+.scroll img {
+  width: 30px;
+  margin: 5.3em 0em 1.2em 2.5em;
+  -webkit-animation: move 0.9s infinite alternate;
+          animation: move 0.9s infinite alternate;
+}
+
+@-webkit-keyframes move {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+
+@keyframes move {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul a {
+  padding: 0.6em;
+  cursor: pointer;
+}
+
+/*
+This is the second section of the website
+Which is the description of Salon business
+*/
+.second-section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #dfc72962;
+  height: 1239px;
+}
+
+.second-section h4 {
+  color: #A2DFD3;
+  position: relative;
+  margin-top: 1.7em;
+  margin-bottom: 0em;
+}
+
+.second-section h3 {
+  margin-bottom: 0.6em;
+  position: relative;
+}
+
+.second-section h3::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #a2dfd357;
+  border-radius: 50%;
+  right: 15.5px;
+  top: -50px;
+}
+
+.second-section h4::before {
+  content: ' ';
+  position: absolute;
+  width: 4.2em;
+  background: #988F8F;
+  height: 0.2em;
+  bottom: 0;
+}
+
+.second-section p {
+  margin: 0;
+  color: black;
+  position: relative;
+  margin-bottom: 0.9em;
+}
+
+.second-section p::before {
+  content: ' ';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #a2dfd350;
+  border-radius: 50%;
+  left: -80px;
+  top: -90px;
+}
+
+.showcase-images .image1 {
+  width: 340px;
+  height: 340px;
+  border-radius: 20px;
+}
+
+.showcase-images .image2 {
+  width: 340px;
+  height: 340px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.showcase-images .image2::before {
+  content: " ";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #a2dfd350;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+}
+
+.showcase-images .image3 {
+  width: 340px;
+  height: 340px;
+  border-radius: 20px;
+}
+
+/*
+This is the third section of the website
+Which is the description of Salon business
+*/
+.third-section {
+  background: #EEE9E9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 320px;
+}
+
+.third-section p {
+  color: black;
+  line-height: 1.8em;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+
+.third-section h3 {
+  position: relative;
+  text-align: center;
+}
+
+.third-section h3::before {
+  position: absolute;
+  content: ' ';
+  width: 290px;
+  height: 3px;
+  background: #A2DFD3;
+  bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */
